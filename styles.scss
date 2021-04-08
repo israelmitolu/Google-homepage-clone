@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #000000;
+}
+header {
+  height: 8vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 14px 0;
+
+  a {
+    margin-right: 20px;
+  }
+  .sign-btn {
+    padding: 9px 23px;
+    background: #1a73e8;
+    border: 1px solid transparent;
+    color: #fff;
+    border-radius: 3px;
+  }
+}
+.container {
+  margin-top: 80px;
+  text-align: center;
+
+  .input-container {
+    input {
+      width: 500px;
+      height: 35px;
+      margin: 4px;
+      padding: 8px;
+      border: 1px solid lightgrey;
+      border-radius: 25px;
+      outline: none;
+    }
+  }
+
+  .btn-container {
+    height: 70px;
+    padding-top: 18px;
+  }
+  input[type="submit"] {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  .languages {
+    display: inline-block;
+    line-height: 28px;
+
+    span {
+      font-size: small;
+    }
+    a {
+      color: #1a0dab;
+      text-decoration: none;
+      padding: 0 3px;
+    }
+  }
+}
